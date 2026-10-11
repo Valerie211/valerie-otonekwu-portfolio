@@ -1,0 +1,68 @@
+body {
+
+  font-family: "Inter", sans-serif;
+
+}
+
+#web-colour{
+  background-color: #F8FAFC;
+}
+
+#aboutme-img {
+  border: 10px solid #0B1F3A;
+}
+
+
+
+.gradient-background {
+  background: linear-gradient(300deg, #0B1F3A, #102A4C, #1D4ED8 );
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.image-blurred-edge {
+  border-radius: 48%;
+  border: 10px solid #F8FAFC;
+}
+.nav-link{
+  color: #DBEAFE;
+}
+
+
+#sitename {
+  font-weight: 700;
+  color: #DBEAFE;
+}
+
+.hero-title {
+  color: #DBEAFE;
+}
+
+
+/* .bio {
+  padding-left: 200px;
+  padding-right: 200px;
+} */
+#hero .col-lg-6 p {
+  color: #F8FAFC;
+}
+
+#cc {
+  color: white;
+}
+
+.about-me-navy {
+  background-color: #0B1F3A;
+}
